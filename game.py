@@ -5,7 +5,7 @@ import random
 
 pygame.init()
 
-crash_sound = pygame.mixer.Sound('crash.wav')
+crash_sound = pygame.mixer.Sound('Your music file for crash') #suitable music file is .wav 
 
 display_width = 800
 display_height = 600
@@ -127,7 +127,7 @@ def game_intro():
                 clock.tick(15)
 
 def game_loop():
-        pygame.mixer.music.load('theme.wav')
+        pygame.mixer.music.load('Your music file for game theme') #suitable music file type .wav
         pygame.mixer.music.play(-1)
         
         x = (display_width*0.45)
