@@ -12,4 +12,4 @@ Play the game
 =============
 1. Git clone this repository to your local machine
 2. Add your own music (.wav) files in the requested areas in the game.py file
-3. Use python game.py to run the game
+3. Run `python game.py` to play the game
